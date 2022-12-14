@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/elizabethrsotomayor/product-preview-card)
-- Live Site URL: [](https://elizabethrsotomayor.github.io/product-preview-card/)
+- Solution URL: [product preview repo](https://github.com/elizabethrsotomayor/product-preview-card)
+- Live Site URL: [product preview card](https://elizabethrsotomayor.github.io/product-preview-card/)
 
 ## My process
 
