@@ -40,7 +40,6 @@ p {
 
 .card {
   display: flex;
-  flex: 1 1 0px;
   gap: 25px;
   width: 50%;
   margin: auto;
@@ -51,6 +50,7 @@ p {
 .text-content {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .prod-description {
@@ -104,6 +104,7 @@ p {
   .perfume-desktop {
     width: 50%;
     border-radius: 10px 0 0 10px;
+    flex-grow: 1;
   }
 }
 
