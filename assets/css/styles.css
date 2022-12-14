@@ -80,6 +80,11 @@ p {
   text-align: center;
   border-radius: 10px;
 }
+
+.add-cart:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -103,4 +108,47 @@ p {
 
 /* MOBILE STYLES */
 @media (min-width: 325px) and (max-width: 1024px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+  }
+
+  h1 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .perfume-desktop {
+    display: none;
+  }
+
+  .perfume-mobile {
+    width: 100%;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 90%;
+    margin-top: 0;
+    border-radius: 10px;
+  }
+
+  .text-content {
+    padding: 1rem;
+  }
+
+  .prod-description {
+    width: 92%;
+  }
+
+  .perfume-title {
+    margin-top: 0;
+  }
+
+  .add-cart {
+    margin-bottom: 0.5rem;
+    margin: auto;
+  }
 }
