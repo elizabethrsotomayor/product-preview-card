@@ -16,6 +16,8 @@ h2 {
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", sans-serif;
   font-size: 2.4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -39,7 +41,8 @@ p {
 }
 
 .card {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   width: 50%;
   margin: auto;
@@ -55,7 +58,8 @@ p {
 
 .prod-description {
   width: 80%;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 .prices {
@@ -73,7 +77,8 @@ p {
 .add-cart {
   background-color: hsl(158, 36%, 37%);
   padding: 1rem;
-  margin-bottom: 2.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   width: 70%;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -102,9 +107,14 @@ p {
   }
 
   .perfume-desktop {
-    width: 50%;
+    width: 100%;
     border-radius: 10px 0 0 10px;
-    flex-grow: 1;
+    min-height: 100%;
+  }
+
+  .images {
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 }
 
@@ -116,7 +126,7 @@ p {
 
   h1 {
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .perfume-desktop {
@@ -130,11 +140,13 @@ p {
   }
 
   .card {
+    display: flex;
     flex-direction: column;
     gap: 0.5rem;
     width: 90%;
     margin-top: 0;
     border-radius: 10px;
+    padding-bottom: 1rem;
   }
 
   .text-content {
@@ -150,7 +162,7 @@ p {
   }
 
   .add-cart {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     margin: auto;
   }
 }
